@@ -1,0 +1,141 @@
+html, body {
+    font-family: "Helvetica";
+    margin: 0;
+}
+
+.top {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.small-contrast {
+    color: #E5E7EB;
+    font-size: 14px;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-one {
+    padding: 15px 30px;
+    background-color: #3882F6;
+    border: 0;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.content {
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    gap: 40px;
+}
+
+.content > div {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.width {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.random-into-title {
+    text-align: center;
+    color: #1F2937;
+}
+
+.four-boxes {
+    margin: 20px 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.quote-div {
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.quote {
+    margin: 50px;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.signup-div {
+    margin: 50px 0;
+    padding: 20px 80px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-signup {
+    flex: 4;
+}
+
+.action {
+    margin-bottom: 10px;
+}
+
+.signup-text {
+    margin-top: 10px;
+}
+
+.signup-button {
+    flex: 1;
+    display: flex;
+}
+
+.button-two {
+    margin-left: auto;
+    padding: 5px 30px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
